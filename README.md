@@ -1,3 +1,3 @@
 # golang-programs
-## (1) helloworld
-###    - Greets people in English French and Spanish
+## (1) hello
+    * Greets people in English French and Spanish
