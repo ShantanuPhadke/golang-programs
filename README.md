@@ -6,4 +6,4 @@
 ## (3) iteration
 * Repeats an inputted integer the number of times specified in the input
 ## (4) arrays
-* Various Array functions, summing single array, summing multiple arrays
+* Various Array functions, summing single array, summing multiple arrays, summing multiple array tails
