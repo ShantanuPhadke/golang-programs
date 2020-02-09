@@ -5,3 +5,5 @@
 * Basic integer operations (Addition, Subtraction, Multiplication, Division)
 ## (3) iteration
 * Repeats an inputted integer the number of times specified in the input
+## (4) arrays
+* Various Array functions, summing single array, summing multiple arrays
