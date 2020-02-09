@@ -26,3 +26,17 @@ func ArraySumAll(numbersToSum ...[]int) (sums []int) {
 	}
 	return
 }
+
+/*ArraySumAllTails ... Function Specification:
+INPUTS:
+	numbersToSum = A variable length array of arrays of integers
+OUTPUTS:
+	tailSums = An array with the sums of the tails of the inputted arrays
+*/
+func ArraySumAllTails(numbersToSum ...[]int) (tailSums []int) {
+	for _, numbers := range numbersToSum {
+		currentTail := numbers[1:]
+		tailSums = append(tailSums, ArraySum(currentTail))
+	}
+	return
+}

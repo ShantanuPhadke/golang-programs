@@ -45,3 +45,22 @@ func TestArraySumAll(t *testing.T) {
 		assertCorrectArray(t, sums, expectedArraySum)
 	})
 }
+
+func TestArraySumAllTails(t *testing.T) {
+	// Declaring a generalized function for checking if the expected
+	// and actual messages are equal or not
+	assertCorrectArray := func(t *testing.T, got, want []int) {
+		t.Helper()
+		for index, sum := range want {
+			if got[index] != sum {
+				t.Errorf("sum at index %q was actually %q but was expected to be %q", index, got[index], sum)
+			}
+		}
+	}
+
+	t.Run("testing the ArraySumAllTails function on a basic case", func(t *testing.T) {
+		sums := ArraySumAllTails([]int{1, 3, 5}, []int{2, 4, 6, 8, 10}, []int{1, 2, 3, 4, 5, 6, 7, 8})
+		expectedArrayTailSum := []int{8, 28, 35}
+		assertCorrectArray(t, sums, expectedArrayTailSum)
+	})
+}
