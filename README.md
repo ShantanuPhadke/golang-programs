@@ -7,3 +7,5 @@
 * Repeats an inputted integer the number of times specified in the input
 ## (4) arrays
 * Various Array functions, summing single array, summing multiple arrays, summing multiple array tails
+## (5) shapes
+* Calculating Areas of various shapes by utilizing interfaces and methods
