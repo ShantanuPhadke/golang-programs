@@ -56,7 +56,7 @@ type Triangle struct {
 
 /*Area ... (For Triangle) */
 func (t Triangle) Area() float64 {
-	return 0.4 * t.base * t.height
+	return 0.5 * t.base * t.height
 }
 
 /*Perimeter ...
