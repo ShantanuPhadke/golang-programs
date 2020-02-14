@@ -9,3 +9,5 @@
 * Various Array functions, summing single array, summing multiple arrays, summing multiple array tails
 ## (5) shapes
 * Calculating Areas of various shapes by utilizing interfaces and methods
+## (6) bitcoin
+* Representing Bitcoin wallets and various basic operations such as deposit and withdraw
