@@ -11,3 +11,5 @@
 * Calculating Areas of various shapes by utilizing interfaces and methods
 ## (6) bitcoin
 * Representing Bitcoin wallets and various basic operations such as deposit and withdraw
+## (7) dictionary
+* Basic CRUD operations on a string to string dictionary
