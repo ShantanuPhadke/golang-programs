@@ -13,3 +13,5 @@
 * Representing Bitcoin wallets and various basic operations such as deposit and withdraw
 ## (7) dictionary
 * Basic CRUD operations on a string to string dictionary
+## (8) printing
+* Injects fmt's Fprintf method as a dependency for printing
