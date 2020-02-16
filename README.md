@@ -17,3 +17,5 @@
 * Injects fmt's Fprintf method as a dependency for printing
 ## (9) countdown
 * Different types of Countdown timers
+## (10) websitechecker
+* Concurrently checking some mocked up statuses of websites
