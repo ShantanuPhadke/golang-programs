@@ -19,3 +19,5 @@
 * Different types of Countdown timers
 ## (10) websitechecker
 * Concurrently checking some mocked up statuses of websites
+## (11) webracer
+* Concurrently races two inputted urls against one another and returns the one giving back a response faster
