@@ -21,3 +21,5 @@
 * Concurrently checking some mocked up statuses of websites
 ## (11) webracer
 * Concurrently races two inputted urls against one another and returns the one giving back a response faster
+## (12) walker
+* Dynamically processes different types of structs by applying an inputted function to each of the string fields of the struct
